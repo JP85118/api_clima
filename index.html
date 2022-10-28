@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>API Clima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container_weather">
+    <h1 class="weather_title">Buscador del Clima</h1>
+    <div class="result" id="result">
+      <p class="result_paragraph">Agrege Ciudad Y País</p>
+    </div>
+
+    <form action="" method="post" class="get_weather" id="get_weather">
+      <select name="" id="country" class="country">
+        <option disabled selected value="" class="select">Select your country</option>
+        <option value="COL">Colombia</option>
+        <option value="AR">Argentina</option>
+        <option value="CR">Costa Rica</option>
+        <option value="ES">España</option>
+        <option value="US">Estados Unidos</option>
+        <option value="MX">México</option>
+        <option value="PE">Perú</option>
+        <option value="EC">Ecuador</option>
+        <option value="CH">Chile</option>
+      </select>
+      <input type="text" name="city" id="city" class="city" placeholder="Write you city...">
+      <input type="submit" value="Get weather" class="btn">
+    </form>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
